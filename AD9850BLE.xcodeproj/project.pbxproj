@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E96355B01B326D21005E3976 /* AD9850_120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = E96355AA1B326D21005E3976 /* AD9850_120x120.png */; };
+		E96355B11B326D21005E3976 /* AD9850_180x180.png in Resources */ = {isa = PBXBuildFile; fileRef = E96355AB1B326D21005E3976 /* AD9850_180x180.png */; };
+		E96355B21B326D21005E3976 /* AD9850_58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = E96355AC1B326D21005E3976 /* AD9850_58x58.png */; };
+		E96355B31B326D21005E3976 /* AD9850_80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = E96355AD1B326D21005E3976 /* AD9850_80x80.png */; };
+		E96355B41B326D21005E3976 /* AD9850_87x87.png in Resources */ = {isa = PBXBuildFile; fileRef = E96355AE1B326D21005E3976 /* AD9850_87x87.png */; };
+		E96355B61B3270C0005E3976 /* AD9850.png in Resources */ = {isa = PBXBuildFile; fileRef = E96355B51B3270C0005E3976 /* AD9850.png */; };
+		E96355B81B3270C8005E3976 /* mbed_HRM1017.png in Resources */ = {isa = PBXBuildFile; fileRef = E96355B71B3270C8005E3976 /* mbed_HRM1017.png */; };
 		E9F674E41B31D0DE005CFD87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F674E31B31D0DE005CFD87 /* main.m */; };
 		E9F674E71B31D0DE005CFD87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F674E61B31D0DE005CFD87 /* AppDelegate.m */; };
 		E9F674EA1B31D0DE005CFD87 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F674E91B31D0DE005CFD87 /* ViewController.m */; };
@@ -14,6 +21,30 @@
 		E9F674EF1B31D0DE005CFD87 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9F674EE1B31D0DE005CFD87 /* Images.xcassets */; };
 		E9F674F21B31D0DE005CFD87 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9F674F01B31D0DE005CFD87 /* LaunchScreen.xib */; };
 		E9F674FE1B31D0DF005CFD87 /* AD9850BLETests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F674FD1B31D0DF005CFD87 /* AD9850BLETests.m */; };
+		E9F6750F1B31D150005CFD87 /* BLEAdvertising.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F675091B31D150005CFD87 /* BLEAdvertising.m */; };
+		E9F675101B31D150005CFD87 /* BLEPeripheralAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F6750B1B31D150005CFD87 /* BLEPeripheralAccess.m */; };
+		E9F675151B31D19F005CFD87 /* AD9850Control.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F675141B31D19F005CFD87 /* AD9850Control.m */; };
+		E9F6752C1B31E82E005CFD87 /* 007_00-sync_off.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F675171B31E82E005CFD87 /* 007_00-sync_off.png */; };
+		E9F6752D1B31E82E005CFD87 /* 007_00-sync_on.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F675181B31E82E005CFD87 /* 007_00-sync_on.png */; };
+		E9F6752E1B31E82E005CFD87 /* 007_00-sync_rotate1.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F675191B31E82E005CFD87 /* 007_00-sync_rotate1.png */; };
+		E9F6752F1B31E82E005CFD87 /* 008_00-wave_off.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F6751A1B31E82E005CFD87 /* 008_00-wave_off.png */; };
+		E9F675301B31E82E005CFD87 /* 008_00-wave_on.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F6751B1B31E82E005CFD87 /* 008_00-wave_on.png */; };
+		E9F675311B31E82E005CFD87 /* 009_00-link.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F6751C1B31E82E005CFD87 /* 009_00-link.png */; };
+		E9F675321B31E82E005CFD87 /* 009_01-link.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F6751D1B31E82E005CFD87 /* 009_01-link.png */; };
+		E9F675331B31E82E005CFD87 /* arrow_down.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F6751E1B31E82E005CFD87 /* arrow_down.png */; };
+		E9F675341B31E82E005CFD87 /* arrow_up.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F6751F1B31E82E005CFD87 /* arrow_up.png */; };
+		E9F675351B31E82E005CFD87 /* icon_return.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F675201B31E82E005CFD87 /* icon_return.png */; };
+		E9F675361B31E82E005CFD87 /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F675211B31E82E005CFD87 /* images.png */; };
+		E9F675371B31E82E005CFD87 /* mbed-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F675221B31E82E005CFD87 /* mbed-logo.png */; };
+		E9F675381B31E82E005CFD87 /* ohneta.net.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F675231B31E82E005CFD87 /* ohneta.net.png */; };
+		E9F675391B31E82E005CFD87 /* save.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F675241B31E82E005CFD87 /* save.png */; };
+		E9F6753A1B31E82E005CFD87 /* sync_freq.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F675251B31E82E005CFD87 /* sync_freq.png */; };
+		E9F6753B1B31E82E005CFD87 /* wave_fre.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F675271B31E82E005CFD87 /* wave_fre.png */; };
+		E9F6753C1B31E82E005CFD87 /* wave_saw.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F675281B31E82E005CFD87 /* wave_saw.png */; };
+		E9F6753D1B31E82E005CFD87 /* wave_sin.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F675291B31E82E005CFD87 /* wave_sin.png */; };
+		E9F6753E1B31E82E005CFD87 /* wave_squ.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F6752A1B31E82E005CFD87 /* wave_squ.png */; };
+		E9F6753F1B31E82E005CFD87 /* wave_tri.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F6752B1B31E82E005CFD87 /* wave_tri.png */; };
+		E9F6754C1B31F136005CFD87 /* FrequencyScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F675491B31F136005CFD87 /* FrequencyScreenView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +58,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E96355AA1B326D21005E3976 /* AD9850_120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AD9850_120x120.png; sourceTree = "<group>"; };
+		E96355AB1B326D21005E3976 /* AD9850_180x180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AD9850_180x180.png; sourceTree = "<group>"; };
+		E96355AC1B326D21005E3976 /* AD9850_58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AD9850_58x58.png; sourceTree = "<group>"; };
+		E96355AD1B326D21005E3976 /* AD9850_80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AD9850_80x80.png; sourceTree = "<group>"; };
+		E96355AE1B326D21005E3976 /* AD9850_87x87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AD9850_87x87.png; sourceTree = "<group>"; };
+		E96355B51B3270C0005E3976 /* AD9850.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AD9850.png; sourceTree = "<group>"; };
+		E96355B71B3270C8005E3976 /* mbed_HRM1017.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mbed_HRM1017.png; sourceTree = "<group>"; };
 		E9F674DE1B31D0DE005CFD87 /* AD9850BLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AD9850BLE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9F674E21B31D0DE005CFD87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9F674E31B31D0DE005CFD87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +78,35 @@
 		E9F674F71B31D0DF005CFD87 /* AD9850BLETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AD9850BLETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9F674FC1B31D0DF005CFD87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9F674FD1B31D0DF005CFD87 /* AD9850BLETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AD9850BLETests.m; sourceTree = "<group>"; };
+		E9F675081B31D150005CFD87 /* BLEAdvertising.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEAdvertising.h; sourceTree = "<group>"; };
+		E9F675091B31D150005CFD87 /* BLEAdvertising.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEAdvertising.m; sourceTree = "<group>"; };
+		E9F6750A1B31D150005CFD87 /* BLEPeripheralAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEPeripheralAccess.h; sourceTree = "<group>"; };
+		E9F6750B1B31D150005CFD87 /* BLEPeripheralAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEPeripheralAccess.m; sourceTree = "<group>"; };
+		E9F675131B31D19F005CFD87 /* AD9850Control.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AD9850Control.h; sourceTree = "<group>"; };
+		E9F675141B31D19F005CFD87 /* AD9850Control.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AD9850Control.m; sourceTree = "<group>"; };
+		E9F675171B31E82E005CFD87 /* 007_00-sync_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "007_00-sync_off.png"; sourceTree = "<group>"; };
+		E9F675181B31E82E005CFD87 /* 007_00-sync_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "007_00-sync_on.png"; sourceTree = "<group>"; };
+		E9F675191B31E82E005CFD87 /* 007_00-sync_rotate1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "007_00-sync_rotate1.png"; sourceTree = "<group>"; };
+		E9F6751A1B31E82E005CFD87 /* 008_00-wave_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "008_00-wave_off.png"; sourceTree = "<group>"; };
+		E9F6751B1B31E82E005CFD87 /* 008_00-wave_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "008_00-wave_on.png"; sourceTree = "<group>"; };
+		E9F6751C1B31E82E005CFD87 /* 009_00-link.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "009_00-link.png"; sourceTree = "<group>"; };
+		E9F6751D1B31E82E005CFD87 /* 009_01-link.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "009_01-link.png"; sourceTree = "<group>"; };
+		E9F6751E1B31E82E005CFD87 /* arrow_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_down.png; sourceTree = "<group>"; };
+		E9F6751F1B31E82E005CFD87 /* arrow_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_up.png; sourceTree = "<group>"; };
+		E9F675201B31E82E005CFD87 /* icon_return.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_return.png; sourceTree = "<group>"; };
+		E9F675211B31E82E005CFD87 /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images.png; sourceTree = "<group>"; };
+		E9F675221B31E82E005CFD87 /* mbed-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mbed-logo.png"; sourceTree = "<group>"; };
+		E9F675231B31E82E005CFD87 /* ohneta.net.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ohneta.net.png; sourceTree = "<group>"; };
+		E9F675241B31E82E005CFD87 /* save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save.png; sourceTree = "<group>"; };
+		E9F675251B31E82E005CFD87 /* sync_freq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sync_freq.png; sourceTree = "<group>"; };
+		E9F675271B31E82E005CFD87 /* wave_fre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wave_fre.png; sourceTree = "<group>"; };
+		E9F675281B31E82E005CFD87 /* wave_saw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wave_saw.png; sourceTree = "<group>"; };
+		E9F675291B31E82E005CFD87 /* wave_sin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wave_sin.png; sourceTree = "<group>"; };
+		E9F6752A1B31E82E005CFD87 /* wave_squ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wave_squ.png; sourceTree = "<group>"; };
+		E9F6752B1B31E82E005CFD87 /* wave_tri.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wave_tri.png; sourceTree = "<group>"; };
+		E9F675481B31F136005CFD87 /* FrequencyScreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrequencyScreenView.h; sourceTree = "<group>"; };
+		E9F675491B31F136005CFD87 /* FrequencyScreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrequencyScreenView.m; sourceTree = "<group>"; };
+		E9F6754E1B32161D005CFD87 /* BLEInfoDef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLEInfoDef.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +127,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E96355A81B326D21005E3976 /* _icons */ = {
+			isa = PBXGroup;
+			children = (
+				E96355AA1B326D21005E3976 /* AD9850_120x120.png */,
+				E96355AB1B326D21005E3976 /* AD9850_180x180.png */,
+				E96355AC1B326D21005E3976 /* AD9850_58x58.png */,
+				E96355AD1B326D21005E3976 /* AD9850_80x80.png */,
+				E96355AE1B326D21005E3976 /* AD9850_87x87.png */,
+			);
+			path = _icons;
+			sourceTree = "<group>";
+		};
 		E9F674D51B31D0DE005CFD87 = {
 			isa = PBXGroup;
 			children = (
@@ -85,8 +164,13 @@
 				E9F674E61B31D0DE005CFD87 /* AppDelegate.m */,
 				E9F674E81B31D0DE005CFD87 /* ViewController.h */,
 				E9F674E91B31D0DE005CFD87 /* ViewController.m */,
+				E9F675471B31F136005CFD87 /* FrequencyScreenView */,
+				E9F675121B31D19F005CFD87 /* AD9850Control */,
+				E9F675071B31D150005CFD87 /* BLE */,
+				E9F675161B31E82E005CFD87 /* materials */,
 				E9F674EB1B31D0DE005CFD87 /* Main.storyboard */,
 				E9F674EE1B31D0DE005CFD87 /* Images.xcassets */,
+				E96355A81B326D21005E3976 /* _icons */,
 				E9F674F01B31D0DE005CFD87 /* LaunchScreen.xib */,
 				E9F674E11B31D0DE005CFD87 /* Supporting Files */,
 			);
@@ -117,6 +201,73 @@
 				E9F674FC1B31D0DF005CFD87 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9F675071B31D150005CFD87 /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				E9F6754E1B32161D005CFD87 /* BLEInfoDef.h */,
+				E9F675081B31D150005CFD87 /* BLEAdvertising.h */,
+				E9F675091B31D150005CFD87 /* BLEAdvertising.m */,
+				E9F6750A1B31D150005CFD87 /* BLEPeripheralAccess.h */,
+				E9F6750B1B31D150005CFD87 /* BLEPeripheralAccess.m */,
+			);
+			path = BLE;
+			sourceTree = "<group>";
+		};
+		E9F675121B31D19F005CFD87 /* AD9850Control */ = {
+			isa = PBXGroup;
+			children = (
+				E9F675131B31D19F005CFD87 /* AD9850Control.h */,
+				E9F675141B31D19F005CFD87 /* AD9850Control.m */,
+			);
+			path = AD9850Control;
+			sourceTree = "<group>";
+		};
+		E9F675161B31E82E005CFD87 /* materials */ = {
+			isa = PBXGroup;
+			children = (
+				E9F675171B31E82E005CFD87 /* 007_00-sync_off.png */,
+				E9F675181B31E82E005CFD87 /* 007_00-sync_on.png */,
+				E9F675191B31E82E005CFD87 /* 007_00-sync_rotate1.png */,
+				E9F6751A1B31E82E005CFD87 /* 008_00-wave_off.png */,
+				E9F6751B1B31E82E005CFD87 /* 008_00-wave_on.png */,
+				E9F6751C1B31E82E005CFD87 /* 009_00-link.png */,
+				E9F6751D1B31E82E005CFD87 /* 009_01-link.png */,
+				E9F6751E1B31E82E005CFD87 /* arrow_down.png */,
+				E9F6751F1B31E82E005CFD87 /* arrow_up.png */,
+				E9F675201B31E82E005CFD87 /* icon_return.png */,
+				E9F675211B31E82E005CFD87 /* images.png */,
+				E9F675221B31E82E005CFD87 /* mbed-logo.png */,
+				E9F675231B31E82E005CFD87 /* ohneta.net.png */,
+				E9F675241B31E82E005CFD87 /* save.png */,
+				E9F675251B31E82E005CFD87 /* sync_freq.png */,
+				E96355B51B3270C0005E3976 /* AD9850.png */,
+				E96355B71B3270C8005E3976 /* mbed_HRM1017.png */,
+				E9F675261B31E82E005CFD87 /* waves */,
+			);
+			path = materials;
+			sourceTree = "<group>";
+		};
+		E9F675261B31E82E005CFD87 /* waves */ = {
+			isa = PBXGroup;
+			children = (
+				E9F675271B31E82E005CFD87 /* wave_fre.png */,
+				E9F675281B31E82E005CFD87 /* wave_saw.png */,
+				E9F675291B31E82E005CFD87 /* wave_sin.png */,
+				E9F6752A1B31E82E005CFD87 /* wave_squ.png */,
+				E9F6752B1B31E82E005CFD87 /* wave_tri.png */,
+			);
+			path = waves;
+			sourceTree = "<group>";
+		};
+		E9F675471B31F136005CFD87 /* FrequencyScreenView */ = {
+			isa = PBXGroup;
+			children = (
+				E9F675481B31F136005CFD87 /* FrequencyScreenView.h */,
+				E9F675491B31F136005CFD87 /* FrequencyScreenView.m */,
+			);
+			path = FrequencyScreenView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +350,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E96355B31B326D21005E3976 /* AD9850_80x80.png in Resources */,
+				E9F6753E1B31E82E005CFD87 /* wave_squ.png in Resources */,
+				E9F675321B31E82E005CFD87 /* 009_01-link.png in Resources */,
+				E9F675301B31E82E005CFD87 /* 008_00-wave_on.png in Resources */,
+				E96355B41B326D21005E3976 /* AD9850_87x87.png in Resources */,
+				E9F6752C1B31E82E005CFD87 /* 007_00-sync_off.png in Resources */,
+				E9F6752E1B31E82E005CFD87 /* 007_00-sync_rotate1.png in Resources */,
+				E9F6753B1B31E82E005CFD87 /* wave_fre.png in Resources */,
+				E9F675351B31E82E005CFD87 /* icon_return.png in Resources */,
+				E9F675381B31E82E005CFD87 /* ohneta.net.png in Resources */,
+				E96355B81B3270C8005E3976 /* mbed_HRM1017.png in Resources */,
+				E96355B61B3270C0005E3976 /* AD9850.png in Resources */,
+				E9F675371B31E82E005CFD87 /* mbed-logo.png in Resources */,
+				E9F6753C1B31E82E005CFD87 /* wave_saw.png in Resources */,
 				E9F674ED1B31D0DE005CFD87 /* Main.storyboard in Resources */,
+				E9F6753A1B31E82E005CFD87 /* sync_freq.png in Resources */,
+				E96355B21B326D21005E3976 /* AD9850_58x58.png in Resources */,
+				E96355B01B326D21005E3976 /* AD9850_120x120.png in Resources */,
+				E9F6753D1B31E82E005CFD87 /* wave_sin.png in Resources */,
 				E9F674F21B31D0DE005CFD87 /* LaunchScreen.xib in Resources */,
+				E9F675311B31E82E005CFD87 /* 009_00-link.png in Resources */,
+				E9F675391B31E82E005CFD87 /* save.png in Resources */,
+				E9F6752D1B31E82E005CFD87 /* 007_00-sync_on.png in Resources */,
+				E96355B11B326D21005E3976 /* AD9850_180x180.png in Resources */,
+				E9F6752F1B31E82E005CFD87 /* 008_00-wave_off.png in Resources */,
 				E9F674EF1B31D0DE005CFD87 /* Images.xcassets in Resources */,
+				E9F6753F1B31E82E005CFD87 /* wave_tri.png in Resources */,
+				E9F675361B31E82E005CFD87 /* images.png in Resources */,
+				E9F675341B31E82E005CFD87 /* arrow_up.png in Resources */,
+				E9F675331B31E82E005CFD87 /* arrow_down.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +399,11 @@
 			files = (
 				E9F674EA1B31D0DE005CFD87 /* ViewController.m in Sources */,
 				E9F674E71B31D0DE005CFD87 /* AppDelegate.m in Sources */,
+				E9F6750F1B31D150005CFD87 /* BLEAdvertising.m in Sources */,
 				E9F674E41B31D0DE005CFD87 /* main.m in Sources */,
+				E9F6754C1B31F136005CFD87 /* FrequencyScreenView.m in Sources */,
+				E9F675151B31D19F005CFD87 /* AD9850Control.m in Sources */,
+				E9F675101B31D150005CFD87 /* BLEPeripheralAccess.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +598,7 @@
 				E9F675031B31D0DF005CFD87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9F675041B31D0DF005CFD87 /* Build configuration list for PBXNativeTarget "AD9850BLETests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +607,7 @@
 				E9F675061B31D0DF005CFD87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

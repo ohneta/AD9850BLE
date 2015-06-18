@@ -8,8 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@class FrequencyScreenView;
+@class AD9850Control;
 
+@interface ViewController : UIViewController
+{
+	uint32_t		frequency;
+	AD9850Control	*ad9850Control;
+}
 
 @end
 
